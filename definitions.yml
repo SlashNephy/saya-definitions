@@ -1,4 +1,4 @@
-# DTV チャンネルと実況チャンネルの関連付け
+---
 $schema: 'https://raw.githubusercontent.com/SlashNephy/saya-definitions/master/schema.yml'
 channels:
   # https://cal.syoboi.jp/mng?Action=ShowChList
