@@ -1,0 +1,2375 @@
+# DTV チャンネルと実況チャンネルの関連付け
+$schema: 'https://raw.githubusercontent.com/SlashNephy/saya-definitions/master/schema.yml'
+channels:
+  # https://cal.syoboi.jp/mng?Action=ShowChList
+  # https://annict.jp/db/channels
+  # GR (全国)
+  - name: 'NHK 総合'
+    type: 'GR'
+    serviceIds:
+      - 1024   # 関東広域: NHK総合・東京
+      - 10240  # 北海道(札幌): NHK総合・札幌
+      - 11264  # 北海道(函館): NHK総合・函館
+      - 12288  # 北海道(旭川): NHK総合・旭川
+      - 13312  # 北海道(帯広): NHK総合・帯広
+      - 14336  # 北海道(釧路): NHK総合・釧路
+      - 15360  # 北海道(北見): NHK総合・北見
+      - 16384  # 北海道(室蘭): NHK総合・室蘭
+      - 17408  # 宮城: NHK総合・仙台
+      - 18432  # 秋田: NHK総合・秋田
+      - 19456  # 山形: NHK総合・山形
+      - 20480  # 岩手: NHK総合・盛岡
+      - 21504  # 福島: NHK総合・福島
+      - 22528  # 青森: NHK総合・青森
+      - 25600  # 群馬: NHK総合・前橋
+      - 26624  # 茨城: NHK総合・水戸
+      - 28672  # 栃木: NHK総合・宇都宮
+      - 30720  # 長野: NHK総合・長野
+      - 31744  # 新潟: NHK総合・新潟
+      - 32768  # 山梨: NHK総合・甲府
+      - 33792  # 愛知: NHK総合・名古屋
+      - 34816  # 石川: NHK総合・金沢
+      - 35840  # 静岡: NHK総合・静岡
+      - 36864  # 福井: NHK総合・福井
+      - 37888  # 富山: NHK総合・富山
+      - 38912  # 三重: NHK総合・津
+      - 39936  # 岐阜: NHK総合・岐阜
+      - 40960  # 大阪: NHK総合・大阪
+      - 41984  # 京都: NHK総合・京都
+      - 43008  # 兵庫: NHK総合・神戸
+      - 44032  # 和歌山: NHK総合・和歌山
+      - 45056  # 奈良: NHK総合・奈良
+      - 46080  # 滋賀: NHK総合・大津
+      - 47104  # 広島: NHK総合・広島
+      - 48128  # 岡山: NHK総合・岡山
+      - 49152  # 島根: NHK総合・松江
+      - 50176  # 鳥取: NHK総合・鳥取
+      - 51200  # 山口: NHK総合・山口
+      - 52224  # 愛媛: NHK総合・松山
+      - 53248  # 香川: NHK総合・高松
+      - 54272  # 徳島: NHK総合・徳島
+      - 55296  # 高知: NHK総合・高知
+      - 56320  # 福岡: NHK総合・福岡
+      - 56832  # 福岡: NHK総合・北九州
+      - 57344  # 熊本: NHK総合・熊本
+      - 58368  # 長崎: NHK総合・長崎
+      - 59392  # 鹿児島: NHK総合・鹿児島
+      - 60416  # 宮崎: NHK総合・宮崎
+      - 61440  # 大分: NHK総合・大分
+      - 62464  # 佐賀: NHK総合・佐賀
+      - 63488  # 沖縄: NHK総合・沖縄
+    networkId: 15
+    flag: 1
+    nicojkId: 1
+    nicoliveTags:
+      - 'NHK総合'
+    hasOfficialNicolive: true
+    miyoutvId: 'NHK総合'
+    nicoliveCommunityIds:
+      - 'ch2646436'
+    twitterKeywords:
+      - '#nhkgtv'
+    boardIds:
+      - 'NHK'
+      - 'LOVELIVE_NHK'
+      - 'NANJ_NHK'
+    syobocalId: 1
+    annictId: 1
+  - name: 'Eテレ'
+    type: 'GR'
+    serviceIds:
+      - 1032   # 関東広域: NHK-G
+      - 2056   # 近畿広域: NHKEテレ大阪
+      - 3080   # 中京広域: NHKEテレ名古屋
+      - 10248  # 北海道(札幌): NHKEテレ札幌
+      - 11272  # 北海道(函館): NHKEテレ函館
+      - 12296  # 北海道(旭川): NHKEテレ旭川
+      - 13320  # 北海道(帯広): NHKEテレ帯広
+      - 14344  # 北海道(釧路): NHKEテレ釧路
+      - 15368  # 北海道(北見): NHKEテレ北見
+      - 16392  # 北海道(室蘭): NHKEテレ室蘭
+      - 17416  # 宮城: NHKEテレ仙台
+      - 18440  # 秋田: NHKEテレ秋田
+      - 19464  # 山形: NHKEテレ山形
+      - 20488  # 岩手: NHKEテレ盛岡
+      - 21512  # 福島: NHKEテレ福島
+      - 22536  # 青森: NHKEテレ青森
+      - 30728  # 長野: NHKEテレ長野
+      - 31752  # 新潟: NHKEテレ新潟
+      - 32776  # 山梨: NHKEテレ甲府
+      - 34824  # 石川: NHKEテレ金沢
+      - 35848  # 静岡: NHKEテレ静岡
+      - 36872  # 福井: NHKEテレ福井
+      - 37896  # 富山: NHKEテレ富山
+      - 47112  # 広島: NHKEテレ広島
+      - 48136  # 岡山: NHKEテレ岡山
+      - 49160  # 島根: NHKEテレ松江
+      - 50184  # 鳥取: NHKEテレ鳥取
+      - 51208  # 山口: NHKEテレ山口
+      - 52232  # 愛媛: NHKEテレ松山
+      - 53256  # 香川: NHKEテレ高松
+      - 54280  # 徳島: NHKEテレ徳島
+      - 55304  # 高知: NHKEテレ高知
+      - 56328  # 福岡: NHKEテレ福岡
+      - 56840  # 福岡: NHKEテレ北九州
+      - 57352  # 熊本: NHKEテレ熊本
+      - 58376  # 長崎: NHKEテレ長崎
+      - 59400  # 鹿児島: NHKEテレ鹿児島
+      - 60424  # 宮崎: NHKEテレ宮崎
+      - 61448  # 大分: NHKEテレ大分
+      - 62472  # 佐賀: NHKEテレ佐賀
+      - 63496  # 沖縄: NHKEテレ沖縄
+    networkId: 15
+    flag: 2
+    nicojkId: 2
+    nicoliveTags:
+      - 'NHK_Eテレ'
+    hasOfficialNicolive: true
+    miyoutvId: 'NHKEテレ'
+    nicoliveCommunityIds:
+      - 'ch2646437'
+    twitterKeywords:
+      - '#Eテレ'
+      - '#etv'
+      - '#nhketv'
+    boardIds:
+      - 'ETV'
+      - 'LOVELIVE_ETV'
+      - 'NANJ_ETV'
+    syobocalId: 2
+    annictId: 2
+  - name: '日テレ'
+    type: 'GR'
+    serviceIds:
+      - 1040   # 関東広域: 日テレ
+      - 2088   # 近畿広域: 読売テレビ
+      - 3112   # 中京広域: 中京テレビ
+      - 4120   # 北海道域: STV札幌テレビ
+      - 5136   # 岡山香川: RNC西日本テレビ
+      - 6176   # 島根鳥取: 日本海テレビ
+      - 10264  # 北海道(札幌): STV札幌
+      - 11288  # 北海道(函館): STV函館
+      - 12312  # 北海道(旭川): STV旭川
+      - 13336  # 北海道(帯広): STV帯広
+      - 14360  # 北海道(釧路): STV釧路
+      - 15384  # 北海道(北見): STV北見
+      - 16408  # 北海道(室蘭): STV室蘭
+      - 17440  # 宮城: ミヤギテレビ
+      - 18448  # 秋田: ABS秋田放送
+      - 19472  # 山形: YBC山形放送
+      - 20504  # 岩手: テレビ岩手
+      - 21528  # 福島: 福島中央テレビ
+      - 22544  # 青森: RAB青森放送
+      - 30736  # 長野: テレビ信州
+      - 31776  # 新潟: TeNYテレビ新潟
+      - 32784  # 山梨: YBS山梨放送
+      - 34832  # 石川: テレビ金沢
+      - 35872  # 静岡: だいいちテレビ
+      - 36880  # 福井: FBCテレビ
+      - 37904  # 富山: KNB北日本放送
+      - 47128  # 広島: 広島テレビ
+      - 51216  # 山口: KRY山口放送
+      - 52240  # 愛媛: 南海放送
+      - 54288  # 徳島: 四国放送
+      - 55312  # 高知: 高知放送
+      - 56352  # 福岡: FBS福岡放送
+      - 57376  # 熊本: KKTくまもと県民
+      - 58408  # 長崎: NIB長崎国際テレビ
+      - 59432  # 鹿児島: KYT鹿児島読売TV
+      - 61464  # 大分: TOSテレビ大分
+    networkId: 15
+    flag: 4
+    nicojkId: 4
+    nicoliveTags:
+      - '日本テレビ'
+    hasOfficialNicolive: true
+    miyoutvId: '日テレ'
+    nicoliveCommunityIds:
+      - 'ch2646438'
+    twitterKeywords:
+      - '#ntv'
+    boardIds:
+      - 'NTV'
+      - 'NANJ_NTV'
+    syobocalId: 4
+    annictId: 4
+  - name: 'テレビ朝日'
+    type: 'GR'
+    serviceIds:
+      - 1064   # 関東広域: テレビ朝日
+      - 2072   # 近畿広域: ABCテレビ
+      - 3104   # 中京広域: メ～テレ
+      - 4128   # 北海道域: HTB北海道テレビ
+      - 5144   # 岡山香川: KSB瀬戸内海放送
+      - 10272  # 北海道(札幌): HTB札幌
+      - 11296  # 北海道(函館): HTB函館
+      - 12320  # 北海道(旭川): HTB旭川
+      - 13344  # 北海道(帯広): HTB帯広
+      - 14368  # 北海道(釧路): HTB釧路
+      - 15392  # 北海道(北見): HTB北見
+      - 16416  # 北海道(室蘭): HTB室蘭
+      - 17448  # 宮城: KHB東日本放送
+      - 18464  # 秋田: AAB秋田朝日放送
+      - 19480  # 山形: YTS山形テレビ
+      - 20520  # 岩手: 岩手朝日テレビ
+      - 21536  # 福島: KFB福島放送
+      - 22560  # 青森: 青森朝日放送
+      - 30744  # 長野: abn長野朝日放送
+      - 31784  # 新潟: 新潟テレビ21
+      - 34840  # 石川: 北陸朝日放送
+      - 35880  # 静岡: 静岡朝日テレビ
+      - 47136  # 広島: 広島ホームテレビ
+      - 51232  # 山口: yab山口朝日
+      - 52248  # 愛媛: 愛媛朝日
+      - 56336  # 福岡: KBC九州朝日放送
+      - 57384  # 熊本: KAB熊本朝日放送
+      - 58400  # 長崎: NCC長崎文化放送
+      - 59424  # 鹿児島: KKB鹿児島放送
+      - 61472  # 大分: OAB大分朝日放送
+      - 63520  # 沖縄: QAB琉球朝日放送
+    networkId: 15
+    flag: 32
+    nicojkId: 5
+    nicoliveTags:
+      - 'テレビ朝日'
+    hasOfficialNicolive: true
+    miyoutvId: 'テレビ朝日'
+    nicoliveCommunityIds:
+      - 'ch2646439'
+    twitterKeywords:
+      - '#tvasahi'
+    boardIds:
+      - 'ANB'
+      - 'NANJ_ANB'
+    syobocalId: 6
+    annictId: 6
+  - name: 'TBS'
+    type: 'GR'
+    serviceIds:
+      - 1048   # 関東広域: TBS
+      - 2064   # 近畿広域: MBS毎日放送
+      - 3096   # 中京広域: CBC
+      - 4112   # 北海道域: HBC北海道放送
+      - 5152   # 岡山香川: RSKテレビ
+      - 6168   # 島根鳥取: BSSテレビ
+      - 10256  # 北海道(札幌): HBC札幌
+      - 11280  # 北海道(函館): HBC函館
+      - 12304  # 北海道(旭川): HBC旭川
+      - 13328  # 北海道(帯広): HBC帯広
+      - 14352  # 北海道(釧路): HBC釧路
+      - 15376  # 北海道(北見): HBC北見
+      - 16400  # 北海道(室蘭): HBC室蘭
+      - 17424  # 宮城: TBCテレビ
+      - 19488  # 山形: テレビユー山形
+      - 20496  # 岩手: IBCテレビ
+      - 21544  # 福島: テレビユー福島
+      - 22552  # 青森: ATV青森テレビ
+      - 30752  # 長野: SBC信越放送
+      - 31760  # 新潟: BSN
+      - 32792  # 山梨: UTY
+      - 34848  # 石川: MRO
+      - 35856  # 静岡: SBS
+      - 37920  # 富山: チューリップテレビ
+      - 47120  # 広島: RCCテレビ
+      - 51224  # 山口: tysテレビ山口
+      - 52256  # 愛媛: あいテレビ
+      - 55320  # 高知: テレビ高知
+      - 56344  # 福岡: RKB毎日放送
+      - 57360  # 熊本: RKK熊本放送
+      - 58384  # 長崎: NBC長崎放送
+      - 59408  # 鹿児島: MBC南日本放送
+      - 60432  # 宮崎: MRT宮崎放送
+      - 61456  # 大分: OBS大分放送
+      - 63504  # 沖縄: RBCテレビ
+    networkId: 15
+    flag: 8
+    nicojkId: 6
+    nicoliveTags:
+      - 'TBSテレビ'
+    hasOfficialNicolive: true
+    miyoutvId: 'TBS'
+    nicoliveCommunityIds:
+      - 'ch2646440'
+    twitterKeywords:
+      - '#tbs'
+    boardIds:
+      - 'TBS'
+      - 'NANJ_TBS'
+    syobocalId: 5
+    annictId: 5
+  - name: 'テレビ東京'
+    type: 'GR'
+    serviceIds:
+      - 1072   # 関東広域: テレビ東京
+      - 4144   # 北海道域: TVH
+      - 5160   # 岡山香川: TSCテレビせとうち
+      - 10288  # 北海道(札幌): TVH札幌
+      - 11312  # 北海道(函館): TVH函館
+      - 12336  # 北海道(旭川): TVH旭川
+      - 13360  # 北海道(帯広): TVH帯広
+      - 14384  # 北海道(釧路): TVH釧路
+      - 15408  # 北海道(北見): TVH北見
+      - 16432  # 北海道(室蘭): TVH室蘭
+      - 33840  # 愛知: テレビ愛知
+      - 41008  # 大阪: テレビ大阪
+      - 56360  # 福岡: TVQ九州放送
+    networkId: 15
+    flag: 64
+    nicojkId: 7
+    nicoliveTags:
+      - 'テレビ東京'
+    hasOfficialNicolive: true
+    miyoutvId: 'テレビ東京'
+    nicoliveCommunityIds:
+      - 'ch2646441'
+    twitterKeywords:
+      - '#tvtokyo'
+    boardIds:
+      - 'TX'
+      - 'NANJ_TX'
+    syobocalId: 7
+    annictId: 7
+  - name: 'フジテレビ'
+    type: 'GR'
+    serviceIds:
+      - 1056   # 関東広域: フジテレビ
+      - 2080   # 近畿広域: 関西テレビ
+      - 3088   # 中京広域: 東海テレビ
+      - 4136   # 北海道域: UHB
+      - 5168   # 岡山香川: OHKテレビ
+      - 6160   # 島根鳥取: 山陰中央テレビ
+      - 10280  # 北海道(札幌): UHB札幌
+      - 11304  # 北海道(函館): UHB函館
+      - 12328  # 北海道(旭川): UHB旭川
+      - 13352  # 北海道(帯広): UHB帯広
+      - 14376  # 北海道(釧路): UHB釧路
+      - 15400  # 北海道(北見): UHB北見
+      - 16424  # 北海道(室蘭): UHB室蘭
+      - 17432  # 宮城: 仙台放送
+      - 18456  # 秋田: AKT秋田テレビ
+      - 19496  # 山形: さくらんぼテレビ
+      - 20512  # 岩手: めんこいテレビ
+      - 21520  # 福島: 福島テレビ
+      - 30760  # 長野: NBS長野放送
+      - 31768  # 新潟: NST
+      - 34856  # 石川: 石川テレビ
+      - 35864  # 静岡: テレビ静岡
+      - 36888  # 福井: 福井テレビ
+      - 37912  # 富山: BBT富山テレビ
+      - 47144  # 広島: TSS
+      - 52264  # 愛媛: テレビ愛媛
+      - 55328  # 高知: さんさんテレビ
+      - 56368  # 福岡: TNCテレビ西日本
+      - 57368  # 熊本: TKUテレビ熊本
+      - 58392  # 長崎: KTNテレビ長崎
+      - 59416  # 鹿児島: KTS鹿児島テレビ
+      - 60440  # 宮崎: UMKテレビ宮崎
+      - 62480  # 佐賀: STSサガテレビ
+      - 63544  # 沖縄: 沖縄テレビ(OTV)
+    networkId: 15
+    flag: 16
+    nicojkId: 8
+    nicoliveTags:
+      - 'フジテレビ'
+    hasOfficialNicolive: true
+    miyoutvId: 'フジテレビ'
+    nicoliveCommunityIds:
+      - 'ch2646442'
+    twitterKeywords:
+      - '#fujitv'
+    boardIds:
+      - 'CX'
+      - 'NANJ_CX'
+    syobocalId: 3
+    annictId: 3
+
+  # GR (ローカル)
+  - name: 'TOKYO MX'
+    type: 'GR'
+    serviceIds:
+      - 23608  # 東京: TOKYO MX
+    networkId: 15
+    nicojkId: 9
+    nicoliveTags:
+      - 'TOKYO_MX'
+    hasOfficialNicolive: true
+    miyoutvId: 'TOKYO MX'
+    nicoliveCommunityIds:
+      - 'ch2646485'
+    twitterKeywords:
+      - '#tokyomx'
+    boardIds:
+      - 'MX'
+      - 'LOCAL_MX'
+      - 'ANIME_MX'
+      - 'NANJ_MX'
+    syobocalId: 19
+    annictId: 19
+  - name: '放送大学'
+    type: 'GR'
+    serviceIds:
+      - 1088  # 関東広域: 放送大学
+    networkId: 15
+    nicojkId: 231
+    twitterKeywords:
+      - '#放送大学'
+    syobocalId: 158
+  - name: 'テレ玉'
+    type: 'GR'
+    serviceIds:
+      - 29752  # 埼玉: テレ玉
+    networkId: 15
+    nicojkId: 10
+    nicoliveTags:
+      - 'テレ玉'
+    miyoutvId: 'テレ玉'
+    nicoliveCommunityIds:
+      - 'co5253063'
+    twitterKeywords:
+      - '#テレ玉'
+    boardIds:
+      - 'LOCAL_TVS'
+    syobocalId: 14
+    annictId: 14
+  - name: 'tvk'
+    type: 'GR'
+    serviceIds:
+      - 24632  # 神奈川: tvk
+    networkId: 15
+    nicojkId: 11
+    nicoliveTags:
+      - 'tvk'
+    miyoutvId: 'tvk'
+    nicoliveCommunityIds:
+      - 'co5215296'
+    twitterKeywords:
+      - '#tvk'
+    boardIds:
+      - 'LOCAL_TVK'
+      - 'NANJ_TVK'
+    syobocalId: 8
+    annictId: 8
+  - name: 'チバテレビ'
+    type: 'GR'
+    serviceIds:
+      - 27704  # 千葉: チバテレビ
+    networkId: 15
+    nicojkId: 12
+    nicoliveTags:
+      - 'チバテレビ'
+    miyoutvId: 'チバテレ'
+    nicoliveCommunityIds:
+      - 'co5359761'
+    twitterKeywords:
+      - '#チバテレ'
+    boardIds:
+      - 'LOCAL_CTC'
+    syobocalId: 13
+    annictId: 13
+  - name: '群馬テレビ'
+    type: 'GR'
+    serviceIds:
+      - 25656  # 群馬: 群馬テレビ
+    networkId: 15
+    miyoutvId: '群馬テレビ'
+    boardIds:
+      - 'LOCAL_GTV'
+    syobocalId: 72
+    annictId: 72
+  - name: 'とちぎテレビ'
+    type: 'GR'
+    serviceIds:
+      - 28728  # 栃木: とちぎテレビ
+    networkId: 15
+    miyoutvId: 'とちぎテレビ'
+    boardIds:
+      - 'LOCAL_GYT'
+    syobocalId: 100
+    annictId: 100
+  - name: '三重テレビ'
+    type: 'GR'
+    serviceIds:
+      - 38960  # 三重: 三重テレビ
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+    syobocalId: 82
+    annictId: 82
+  - name: 'ぎふチャン'
+    type: 'GR'
+    serviceIds:
+      - 39984  # 岐阜: ぎふチャン
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+    syobocalId: 83
+    annictId: 83
+  - name: 'KBS京都'
+    type: 'GR'
+    serviceIds:
+      - 42032  # 京都: KBS京都
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+    syobocalId: 66
+    annictId: 66
+  - name: 'サンテレビ'
+    type: 'GR'
+    serviceIds:
+      - 43056  # 兵庫: サンテレビ
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+      - 'NANJ_SUN'
+    syobocalId: 58
+    annictId: 58
+  - name: 'テレビ和歌山'
+    type: 'GR'
+    serviceIds:
+      - 44080  # 和歌山: テレビ和歌山
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+    syobocalId: 86
+    annictId: 86
+  - name: '奈良テレビ'
+    type: 'GR'
+    serviceIds:
+      - 45104  # 奈良: 奈良テレビ
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+    syobocalId: 74
+    annictId: 74
+  - name: 'BBCびわ湖放送'
+    type: 'GR'
+    serviceIds:
+      - 46128  # 滋賀: BBCびわ湖放送
+    networkId: 15
+    boardIds:
+      - 'LOCAL_WEST'
+    syobocalId: 87
+    annictId: 87
+
+  - name: 'MBS毎日放送'
+    type: 'GR'
+    serviceIds:
+      - 2064   # 近畿広域: MBS毎日放送
+    networkId: 15
+    nicojkId: 6
+    nicoliveTags:
+      - 'TBSテレビ'
+    hasOfficialNicolive: true
+    miyoutvId: 'TBS'
+    nicoliveCommunityIds:
+      - 'ch2646440'
+    twitterKeywords:
+      - '#tbs'
+      - '#mbs'
+    boardIds:
+      - 'TBS'
+      - 'NANJ_TBS'
+      - 'NANJ_MBS'
+    syobocalId: 5
+    annictId: 5
+
+  - name: 'CBC'
+    type: 'GR'
+    serviceIds:
+      - 3096   # 中京広域: CBC
+    networkId: 15
+    nicojkId: 6
+    nicoliveTags:
+      - 'TBSテレビ'
+    hasOfficialNicolive: true
+    miyoutvId: 'TBS'
+    nicoliveCommunityIds:
+      - 'ch2646440'
+    twitterKeywords:
+      - '#tbs'
+      - '#cbc'
+    boardIds:
+      - 'TBS'
+      - 'LOCAL_TOKAI'
+      - 'NANJ_TBS'
+      - 'NANJ_CBC'
+    syobocalId: 5
+    annictId: 5
+
+  - name: 'ABC'
+    type: 'GR'
+    serviceIds:
+      - 2072   # 近畿広域: ABCテレビ
+    networkId: 15
+    nicojkId: 5
+    nicoliveTags:
+      - 'テレビ朝日'
+    hasOfficialNicolive: true
+    miyoutvId: 'テレビ朝日'
+    nicoliveCommunityIds:
+      - 'ch2646439'
+    twitterKeywords:
+      - '#tvasahi'
+    boardIds:
+      - 'ANB'
+      - 'NANJ_ANB'
+      - 'NANJ_ABC'
+    syobocalId: 6
+    annictId: 6
+
+  # GR (CATV)
+  - name: 'J:COM HD'
+    type: 'GR'
+    serviceIds:
+      - 23656  # J:COM HD
+      - 23672  # J:COM
+    networkId: 15
+    boardIds:
+      - 'ENDLESS_JCOM'
+      - 'NANJ_JCOM'
+    syobocalId: 245
+    annictId: 255
+
+  # BS
+  - name: 'NHKBS1'
+    type: 'BS'
+    serviceIds:
+      - 101
+      - 102
+    networkId: 4
+    nicojkId: 101
+    nicoliveTags:
+      - 'NHKBS-1'
+      - 'NHKBS'
+      - 'NHK_BS'
+    miyoutvId: 'NHKBS1'
+    hasOfficialNicolive: true
+    nicoliveCommunityIds:
+      - 'ch2647992'
+    twitterKeywords:
+      - '#nhkbs1'
+    boardIds:
+      - 'BSNHK_BS1'
+      - 'NANJ_NHKBS1'
+      - 'NANJ_NHKBS2'
+    syobocalId: 9
+    annictId: 9
+  - name: 'NHKBSプレミアム'
+    type: 'BS'
+    serviceIds:
+      - 103
+      - 104
+    networkId: 4
+    nicojkId: 103
+    nicoliveTags:
+      - 'NHK_BSプレミアム'
+      - 'NHKBSプレミアム'
+      - 'BSプレミアム'
+    miyoutvId: 'NHKBSプレミアム'
+    nicoliveCommunityIds:
+      - 'co5175227'
+    twitterKeywords:
+      - '#nhkbsp'
+    boardIds:
+      - 'BSNHK_BSP'
+      - 'NANJ_NHKBSP'
+    syobocalId: 179
+    annictId: 180
+  - name: 'BS日テレ'
+    type: 'BS'
+    serviceIds:
+      - 141
+      - 142
+      - 143
+    networkId: 4
+    nicojkId: 141
+    nicoliveTags:
+      - 'BS_日テレ'
+      - 'BS日テレ'
+    miyoutvId: 'BS日テレ'
+    nicoliveCommunityIds:
+      - 'co5175341'
+    twitterKeywords:
+      - '#BS日テレ'
+      - '#bsntv'
+    boardIds:
+      - 'BSFREE_NTV'
+      - 'NANJ_BSNTV'
+    syobocalId: 71
+    annictId: 71
+  - name: 'BS朝日'
+    type: 'BS'
+    serviceIds:
+      - 151
+      - 152
+      - 153
+    networkId: 4
+    nicojkId: 151
+    nicoliveTags:
+      - 'BS_朝日'
+      - 'BS朝日'
+    miyoutvId: 'BS朝日'
+    nicoliveCommunityIds:
+      - 'co5175345'
+    twitterKeywords:
+      - '#BS朝日'
+      - '#bsasahi'
+    boardIds:
+      - 'BSFREE_ANB'
+      - 'NANJ_BSANB'
+    syobocalId: 18
+    annictId: 18
+  - name: 'BS-TBS'
+    type: 'BS'
+    serviceIds:
+      - 161
+      - 162
+      - 163
+    networkId: 4
+    nicojkId: 161
+    nicoliveTags:
+      - 'BS-TBS'
+      - 'BSTBS'
+    miyoutvId: 'BS-TBS'
+    nicoliveCommunityIds:
+      - 'co5176119'
+    twitterKeywords:
+      - '#bstbs'
+    boardIds:
+      - 'BSFREE_TBS'
+      - 'NANJ_BSTBS'
+    syobocalId: 16
+    annictId: 16
+  - name: 'BSテレ東'
+    type: 'BS'
+    serviceIds:
+      - 171
+      - 172
+      - 173
+    networkId: 4
+    nicojkId: 171
+    nicoliveTags:
+      - 'BSジャパン'
+      - 'BSテレ東'
+    miyoutvId: 'BSジャパン'
+    nicoliveCommunityIds:
+      - 'co5176122'
+    twitterKeywords:
+      - '#BSテレ東'
+      - '#BSジャパン'
+      - '#bstvtokyo'
+    boardIds:
+      - 'BSFREE_TX'
+      - 'NANJ_BSTX'
+    syobocalId: 15
+    annictId: 15
+  - name: 'BSフジ'
+    type: 'BS'
+    serviceIds:
+      - 181
+      - 182
+      - 183
+    networkId: 4
+    nicojkId: 181
+    nicoliveTags:
+      - 'BSフジ'
+    miyoutvId: 'BSフジ'
+    nicoliveCommunityIds:
+      - 'co5176125'
+    twitterKeywords:
+      - '#BSフジ'
+      - '#bsfuji'
+    boardIds:
+      - 'BSFREE_CX'
+      - 'NANJ_BSCX'
+    syobocalId: 17
+    annictId: 17
+  - name: 'WOWOWプライム'
+    type: 'BS'
+    serviceIds:
+      - 191
+    networkId: 4
+    nicojkId: 191
+    nicoliveTags:
+      - 'WOWOW_PRIME'
+    miyoutvId: 'WOWOWプライム'
+    nicoliveCommunityIds:
+      - 'co5251972'
+    twitterKeywords:
+      - '#WOWOW'
+    boardIds:
+      - 'BSPAY_WOWOWP'
+      - 'NANJ_WOWOW'
+    syobocalId: 204
+    annictId: 205
+  - name: 'WOWOWライブ'
+    type: 'BS'
+    serviceIds:
+      - 192
+    networkId: 4
+    nicojkId: 192
+    nicoliveTags:
+      - 'WOWOW_LIVE'
+    miyoutvId: 'WOWOWライブ'
+    nicoliveCommunityIds:
+      - 'co5251976'
+    twitterKeywords:
+      - '#WOWOW'
+    boardIds:
+      - 'BSPAY_WOWOWL'
+      - 'NANJ_WOWOW'
+    syobocalId: 97
+    annictId: 97
+  - name: 'WOWOWシネマ'
+    type: 'BS'
+    serviceIds:
+      - 193
+    networkId: 4
+    nicojkId: 193
+    nicoliveTags:
+      - 'WOWOW_CINEMA'
+    miyoutvId: 'WOWOWシネマ'
+    nicoliveCommunityIds:
+      - 'co5251983'
+    twitterKeywords:
+      - '#WOWOW'
+    boardIds:
+      - 'BSPAY_WOWOWC'
+      - 'NANJ_WOWOW'
+    syobocalId: 76
+    annictId: 76
+  - name: 'スターチャンネル1'
+    type: 'BS'
+    serviceIds:
+      - 200
+    networkId: 4
+    nicojkId: 200
+    miyoutvId: 'スターチャンネル'
+    twitterKeywords:
+      - '#スターチャンネル'
+    boardIds:
+      - 'BSPAY_STAR'
+    syobocalId: 217
+    annictId: 217
+  - name: 'スターチャンネル2'
+    type: 'BS'
+    serviceIds:
+      - 201
+    networkId: 4
+    nicojkId: 201
+    miyoutvId: 'スターチャンネル'
+    twitterKeywords:
+      - '#スターチャンネル'
+    boardIds:
+      - 'BSPAY_STAR'
+    syobocalId: 219
+    annictId: 220
+  - name: 'スターチャンネル3'
+    type: 'BS'
+    serviceIds:
+      - 202
+    networkId: 4
+    nicojkId: 202
+    miyoutvId: 'スターチャンネル'
+    twitterKeywords:
+      - '#スターチャンネル'
+    boardIds:
+      - 'BSPAY_STAR'
+    syobocalId: 214
+    annictId: 214
+  - name: 'BS11イレブン'
+    type: 'BS'
+    serviceIds:
+      - 211
+    networkId: 4
+    nicojkId: 211
+    nicoliveTags:
+      - 'BS11'
+    hasOfficialNicolive: true
+    miyoutvId: 'BS11イレブン'
+    nicoliveCommunityIds:
+      - 'ch2646846'
+    twitterKeywords:
+      - '#BS11'
+    boardIds:
+      - 'BSFREE_BS11'
+      - 'ANIME_BS11'
+      - 'NANJ_BS11'
+    syobocalId: 128
+    annictId: 128
+  - name: 'BS12トゥエルビ'
+    type: 'BS'
+    serviceIds:
+      - 222
+    networkId: 4
+    nicojkId: 222
+    nicoliveTags:
+      - 'TwellV'
+      - 'BS12'
+    miyoutvId: 'BS12トゥエルビ'
+    nicoliveCommunityIds:
+      - 'co5193029'
+    twitterKeywords:
+      - '#BS12'
+    boardIds:
+      - 'BSFREE_BS12'
+      - 'NANJ_BS12'
+    syobocalId: 129
+    annictId: 129
+  - name: '放送大学ex'
+    type: 'BS'
+    serviceIds:
+      - 231
+    networkId: 4
+    nicojkId: 231
+    twitterKeywords:
+      - '#放送大学'
+    boardIds:
+      - 'BSFREE_OUJ'
+    syobocalId: 158
+    annictId: 158
+  - name: '放送大学on'
+    type: 'BS'
+    serviceIds:
+      - 232
+      - 233
+    networkId: 4
+    nicojkId: 231
+    twitterKeywords:
+      - '#放送大学'
+    boardIds:
+      - 'BSFREE_OUJ'
+    syobocalId: 158
+    annictId: 158
+  - name: 'グリーンチャンネル'
+    type: 'BS'
+    serviceIds:
+      - 234
+    networkId: 4
+    nicojkId: 234
+    nicoliveTags:
+      - 'BSグリーンチャンネル'
+      - 'グリーンチャンネル'
+    miyoutvId: 'グリーンチャンネル'
+    nicoliveCommunityIds:
+      - 'co5217651'
+    twitterKeywords:
+      - '#グリーンチャンネル'
+    boardIds:
+      - 'SKYPER_GREEN'
+  - name: 'BSアニマックス'
+    type: 'BS'
+    serviceIds:
+      - 236
+    networkId: 4
+    nicojkId: 236
+    miyoutvId: 'BSアニマックス'
+    nicoliveCommunityIds:
+      - 'co5296297'
+    twitterKeywords:
+      - '#アニマックス'
+    boardIds:
+      - 'SKYPER_ANIMAX'
+    syobocalId: 197
+    annictId: 167
+  - name: 'FOXbs238'
+    type: 'BS'
+    serviceIds:
+      - 238  # 停波済み
+    networkId: 4
+    nicojkId: 238
+    miyoutvId: 'FOXスポーツエンタ'
+  - name: 'BSスカパー!'
+    type: 'BS'
+    serviceIds:
+      - 241
+    networkId: 4
+    nicojkId: 241
+    miyoutvId: 'BSスカパー'
+    boardIds:
+      - 'BSPAY_SKYPER'
+    syobocalId: 196
+    annictId: 197
+  - name: 'J SPORTS 1'
+    type: 'BS'
+    serviceIds:
+      - 242
+    networkId: 4
+    nicojkId: 242
+    twitterKeywords:
+      - '#jsports'
+    boardIds:
+      - 'NANJ_JSPORTS'
+      - 'NANJ_JSPORTS1'
+    miyoutvId: 'J SPORTS'
+    syobocalId: 258
+  - name: 'J SPORTS 2'
+    type: 'BS'
+    serviceIds:
+      - 243
+    networkId: 4
+    nicojkId: 243
+    twitterKeywords:
+      - '#jsports'
+    boardIds:
+      - 'NANJ_JSPORTS2'
+    miyoutvId: 'J SPORTS'
+    syobocalId: 259
+  - name: 'J SPORTS 3'
+    type: 'BS'
+    serviceIds:
+      - 244
+    networkId: 4
+    nicojkId: 244
+    twitterKeywords:
+      - '#jsports'
+    boardIds:
+      - 'NANJ_JSPORTS3'
+    miyoutvId: 'J SPORTS'
+    syobocalId: 260
+  - name: 'J SPORTS 4'
+    type: 'BS'
+    serviceIds:
+      - 245
+    networkId: 4
+    nicojkId: 245
+    twitterKeywords:
+      - '#jsports'
+    boardIds:
+      - 'NANJ_JSPORTS4'
+    miyoutvId: 'J SPORTS'
+    syobocalId: 261
+  - name: 'BS釣りビジョン'
+    type: 'BS'
+    serviceIds:
+      - 251
+    networkId: 4
+    twitterKeywords:
+      - '#釣りビジョン'
+    nicojkId: 251
+    miyoutvId: 'BS釣りビジョン'
+  - name: 'WOWOWプラス'
+    type: 'BS'
+    serviceIds:
+      - 252
+    networkId: 4
+    nicojkId: 252
+    twitterKeywords:
+      - '#WOWOW'
+    boardIds:
+      - 'SKYPER_WOWOWPLUS'
+      - 'NANJ_WOWOW'
+    miyoutvId: 'イマジカBS・映画'
+    syobocalId: 251
+  - name: '日本映画専門ch'
+    type: 'BS'
+    serviceIds:
+      - 255
+    networkId: 4
+    nicojkId: 255
+    twitterKeywords:
+      - '#日本映画専門CH'
+    miyoutvId: 'BS日本映画専門'
+    boardIds:
+      - 'SKYPER_225'
+    syobocalId: 40
+    annictId: 40
+  - name: 'ディズニーch'
+    type: 'BS'
+    serviceIds:
+      - 256
+    networkId: 4
+    nicojkId: 256
+    twitterKeywords:
+      - '#ディズニーチャンネル'
+    miyoutvId: 'ディズニーチャンネル'
+    syobocalId: 163
+    annictId: 163
+  - name: 'Dlife'
+    type: 'BS'
+    serviceIds:
+      - 258  # 停波済み
+    networkId: 4
+    nicojkId: 258
+    miyoutvId: 'ディーライフ'
+    twitterKeywords:
+      - '#Dlife'
+    boardIds:
+      - 'BSFREE_DLIFE'
+    syobocalId: 212
+    annictId: 212
+  - name: 'BS松竹東急'
+    type: 'BS'
+    serviceIds:
+      - 260
+    networkId: 4
+    nicojkId: 260
+    nicoliveCommunityIds:
+      - 'co5682554'
+    boardIds:
+      - 'BSFREE_SYOCHIKUTOKYU'
+    syobocalId: 271
+    annictId: 302
+    twitterKeywords:
+      - '#BS松竹東急'
+      - '#松竹東急'
+      - '#BS260'
+  - name: 'BSJapanext'
+    type: 'BS'
+    serviceIds:
+      - 263
+    networkId: 4
+    nicojkId: 263
+    nicoliveCommunityIds:
+      - 'co5682551'
+    boardIds:
+      - 'BSFREE_JAPANEXT'
+    syobocalId: 273
+    annictId: 303
+    twitterKeywords:
+      - '#BSJapanext'
+  - name: 'BSよしもと'
+    type: 'BS'
+    serviceIds:
+      - 265
+    networkId: 4
+    nicojkId: 265
+    nicoliveCommunityIds:
+      - 'co5682548'
+    boardIds:
+      - 'BSFREE_YOSHIMOTO'
+    syobocalId: 271
+    annictId: 304
+    twitterKeywords:
+      - '#BSよしもと'
+  - name: '放送大学ラジオ'
+    type: 'BS'
+    serviceIds:
+      - 531
+    networkId: 4
+    nicojkId: 231
+    twitterKeywords:
+      - '#放送大学'
+    boardIds:
+      - 'BSFREE_OUJ'
+    syobocalId: 159
+    annictId: 159
+  - name: 'SOLiVE24'
+    type: 'BS'
+    serviceIds:
+      - 910  # 停波済み
+    networkId: 4
+    nicojkId: 910
+    boardIds:
+      - 'ENDLESS_WNI'
+      - 'NANU_WNI'
+
+  # CS
+  - name: 'ショップチャンネル'
+    type: 'CS'
+    serviceIds:
+      - 55
+    networkId: 6
+    miyoutvId: 'ショップチャンネル'
+  - name: 'QVC'
+    type: 'CS'
+    serviceIds:
+      - 161
+    networkId: 7
+    miyoutvId: 'QVC'
+  - name: '東映チャンネル'
+    type: 'CS'
+    serviceIds:
+      - 218
+    networkId: 6
+    miyoutvId: '東映チャンネル'
+    boardIds:
+      - 'SKYPER_218'
+    syobocalId: 39
+    annictId: 39
+  - name: '衛星劇場'
+    type: 'CS'
+    serviceIds:
+      - 219
+    networkId: 6
+    miyoutvId: '衛星劇場'
+    syobocalId: 220
+    annictId: 221
+  - name: '映画・chNECO'
+    type: 'CS'
+    serviceIds:
+      - 223
+    networkId: 7
+    miyoutvId: '映画・chNECO'
+    boardIds:
+      - 'SKYPER_NECO'
+    syobocalId: 26
+    annictId: 26
+  - name: 'ザ・シネマ'
+    type: 'CS'
+    serviceIds:
+      - 227
+    networkId: 7
+    miyoutvId: 'ザ・シネマ'
+  - name: 'FOXムービー'
+    type: 'CS'
+    serviceIds:
+      - 229  # 停波済み
+    networkId: 6
+  - name: 'ムービープラス'
+    type: 'CS'
+    serviceIds:
+      - 240
+    networkId: 7
+    miyoutvId: 'ムービープラス'
+    syobocalId: 152
+    annictId: 152
+  - name: 'スカイA'
+    type: 'CS'
+    serviceIds:
+      - 250
+    networkId: 7
+    miyoutvId: 'スカイA'
+    syobocalId: 84
+    annictId: 84
+    boardIds:
+      - 'NANJ_SKYA'
+  - name: 'GAORA'
+    type: 'CS'
+    serviceIds:
+      - 254
+    networkId: 7
+    miyoutvId: 'GAORA'
+    syobocalId: 265
+  - name: '日テレジータス'
+    type: 'CS'
+    serviceIds:
+      - 257
+    networkId: 7
+    miyoutvId: '日テレジータス'
+    boardIds:
+      - 'SKYPER_GTASU'
+      - 'NANJ_GTASU'
+    syobocalId: 266
+  - name: 'ゴルフネットワーク'
+    type: 'CS'
+    serviceIds:
+      - 262
+    networkId: 7
+    miyoutvId: 'ゴルフネット'
+  - name: 'SKY STAGE'
+    type: 'CS'
+    serviceIds:
+      - 290
+    networkId: 7
+    miyoutvId: 'SKY STAGE'
+    boardIds:
+      - 'SKYPER_SKYSTAGE'
+    syobocalId: 167
+    annictId: 169
+  - name: '時代劇専門ch'
+    type: 'CS'
+    serviceIds:
+      - 292
+    networkId: 7
+    miyoutvId: '時代劇専門'
+    boardIds:
+      - 'SKYPER_292'
+    syobocalId: 221
+    annictId: 222
+  - name: 'ファミリー劇場'
+    type: 'CS'
+    serviceIds:
+      - 293
+    networkId: 7
+    miyoutvId: 'ファミリー劇場'
+    boardIds:
+      - 'SKYPER_FAMILY'
+    syobocalId: 42
+    annictId: 42
+  - name: 'ホームドラマCH'
+    type: 'CS'
+    serviceIds:
+      - 294
+    networkId: 7
+    miyoutvId: 'ホームドラマ'
+    syobocalId: 153
+    annictId: 153
+  - name: 'MONDO TV'
+    type: 'CS'
+    serviceIds:
+      - 295
+    networkId: 7
+    miyoutvId: 'MONDO TV'
+    boardIds:
+      - 'SKYPER_MONDO'
+    syobocalId: 47
+    annictId: 47
+  - name: 'TBSチャンネル1'
+    type: 'CS'
+    serviceIds:
+      - 296
+    networkId: 6
+    miyoutvId: 'TBSチャンネル'
+    boardIds:
+      - 'SKYPER_TBS'
+      - 'NANJ_TBSCH'
+    syobocalId: 52
+    annictId: 52
+  - name: 'TBSチャンネル2'
+    type: 'CS'
+    serviceIds:
+      - 297
+    networkId: 7
+    miyoutvId: 'TBSチャンネル'
+    boardIds:
+      - 'SKYPER_TBS'
+      - 'NANJ_TBSCH'
+    syobocalId: 215
+    annictId: 215
+  - name: 'テレ朝チャンネル1'
+    type: 'CS'
+    serviceIds:
+      - 298
+    networkId: 6
+    miyoutvId: 'テレ朝チャンネル'
+    boardIds:
+      - 'SKYPER_ANB'
+    syobocalId: 224
+    annictId: 229
+  - name: 'テレ朝チャンネル2'
+    type: 'CS'
+    serviceIds:
+      - 299
+    networkId: 6
+    miyoutvId: 'テレ朝チャンネル'
+    boardIds:
+      - 'SKYPER_ANB'
+    syobocalId: 243
+    annictId: 253
+  - name: '日テレプラス'
+    type: 'CS'
+    serviceIds:
+      - 300
+    networkId: 7
+    miyoutvId: '日テレプラス'
+    boardIds:
+      - 'SKYPER_NTVPLUS'
+    syobocalId: 119
+    annictId: 119
+  - name: 'エンタメ〜テレ'
+    type: 'CS'
+    serviceIds:
+      - 301
+    networkId: 7
+  - name: '銀河◆歴ドラ・サスペ'
+    type: 'CS'
+    serviceIds:
+      - 305
+    networkId: 7
+    miyoutvId: '銀河'
+    boardIds:
+      - 'SKYPER_GINGA'
+  - name: 'フジテレビONE'
+    type: 'CS'
+    serviceIds:
+      - 307
+    networkId: 7
+    miyoutvId: 'フジテレビONE'
+    boardIds:
+      - 'SKYPER_CXONE'
+      - 'NANJ_CXONE'
+    syobocalId: 109
+    annictId: 109
+  - name: 'フジテレビTWO'
+    type: 'CS'
+    serviceIds:
+      - 308
+    networkId: 7
+    miyoutvId: 'フジテレビTWO'
+    boardIds:
+      - 'SKYPER_CXTWO'
+      - 'NANJ_CXTWO'
+    syobocalId: 43
+    annictId: 43
+  - name: 'フジテレビNEXT'
+    type: 'CS'
+    serviceIds:
+      - 309
+    networkId: 7
+    miyoutvId: 'フジテレビNEXT'
+    boardIds:
+      - 'SKYPER_CXNEXT'
+      - 'NANJ_CXNEXT'
+    syobocalId: 131
+    annictId: 131
+  - name: 'スーパー！ドラマTV'
+    type: 'CS'
+    serviceIds:
+      - 310
+    networkId: 7
+    miyoutvId: 'スーパードラマ'
+    boardIds:
+      - 'SKYPER_DRAMA'
+    syobocalId: 216
+    annictId: 216
+  - name: 'AXN 海外ドラマ'
+    type: 'CS'
+    serviceIds:
+      - 311
+    networkId: 7
+    miyoutvId: 'AXN 海外ドラマ'
+    boardIds:
+      - 'SKYPER_DRAMA'
+    syobocalId: 254
+  - name: 'FOX'
+    type: 'CS'
+    serviceIds:
+      - 312
+    networkId: 7
+    miyoutvId: 'FOX'
+    boardIds:
+      - 'SKYPER_DRAMA'
+  - name: '女性ch/LaLa'
+    type: 'CS'
+    serviceIds:
+      - 314
+    networkId: 7
+    miyoutvId: '女性ch/LaLa'
+  - name: 'FOXプラス'
+    type: 'CS'
+    serviceIds:
+      - 315  # 停波済み
+    networkId: 6
+  - name: 'AXNミステリー'
+    type: 'CS'
+    serviceIds:
+      - 316
+    networkId: 7
+    miyoutvId: 'AXNミステリー'
+    boardIds:
+      - 'SKYPER_DRAMA'
+  - name: 'KBS World'
+    type: 'CS'
+    serviceIds:
+      - 317
+    networkId: 6
+  - name: 'Mnet'
+    type: 'CS'
+    serviceIds:
+      - 318
+    networkId: 6
+  - name: 'スペシャプラス'
+    type: 'CS'
+    serviceIds:
+      - 321
+    networkId: 7
+    miyoutvId: 'スペシャプラス'
+    syobocalId: 211
+    annictId: 211
+  - name: 'スペースシャワーTV'
+    type: 'CS'
+    serviceIds:
+      - 322
+    networkId: 7
+    miyoutvId: 'スペースシャワーTV'
+    syobocalId: 194
+    annictId: 195
+  - name: 'MTV'
+    type: 'CS'
+    serviceIds:
+      - 323
+    networkId: 7
+    miyoutvId: 'MTV'
+    syobocalId: 235
+    annictId: 242
+  - name: 'ミュージック・エア'
+    type: 'CS'
+    serviceIds:
+      - 324
+      - 326  # 停波済み
+    networkId: 7
+    miyoutvId: 'ミュージック・エア'
+  - name: 'エムオン!'
+    type: 'CS'
+    serviceIds:
+      - 325
+    networkId: 7
+    miyoutvId: 'エムオン'
+    syobocalId: 151
+    annictId: 151
+  - name: '歌謡ポップス'
+    type: 'CS'
+    serviceIds:
+      - 329
+    networkId: 7
+    miyoutvId: '歌謡ポップス'
+    syobocalId: 222
+    annictId: 223
+  - name: 'キッズステーション'
+    type: 'CS'
+    serviceIds:
+      - 330
+    networkId: 7
+    miyoutvId: 'キッズステーション'
+    boardIds:
+      - 'SKYPER_KIDS'
+    syobocalId: 22
+    annictId: 22
+  - name: 'カートゥーン'
+    type: 'CS'
+    serviceIds:
+      - 331
+    networkId: 7
+    miyoutvId: 'カートゥーン'
+    boardIds:
+      - 'SKYPER_CARTOON'
+    syobocalId: 23
+    annictId: 23
+  - name: 'AT-X'
+    type: 'CS'
+    serviceIds:
+      - 333
+    networkId: 7
+    nicojkId: 333
+    nicoliveTags:
+      - 'AT-X'
+    miyoutvId: 'AT−X'
+    nicoliveCommunityIds:
+      - 'co5245469'
+    twitterKeywords:
+      - '#at_x'
+    boardIds:
+      - 'SKYPER_ATX'
+    syobocalId: 20
+    annictId: 20
+  - name: 'ディズニーXD'
+    type: 'CS'
+    serviceIds:
+      - 334  # 停波済み
+    networkId: 6
+    syobocalId: 161
+    annictId: 161
+  - name: 'ディズニージュニア'
+    type: 'CS'
+    serviceIds:
+      - 339
+    networkId: 6
+    miyoutvId: 'ディズニージュニア'
+  - name: 'ディスカバリー'
+    type: 'CS'
+    serviceIds:
+      - 340
+    networkId: 7
+    miyoutvId: 'ディスカバリー'
+    boardIds:
+      - 'SKYPER_DISCOVERY'
+    syobocalId: 61
+    annictId: 61
+  - name: 'アニマルプラネット'
+    type: 'CS'
+    serviceIds:
+      - 341
+    networkId: 7
+    miyoutvId: 'アニマルプラネット'
+    boardIds:
+      - 'SKYPER_ANIMAL'
+    syobocalId: 56
+    annictId: 56
+  - name: 'ヒストリーチャンネル'
+    type: 'CS'
+    serviceIds:
+      - 342
+    networkId: 7
+    miyoutvId: 'ヒストリーチャンネル'
+    boardIds:
+      - 'SKYPER_HISTORY'
+  - name: 'ナショジオ'
+    type: 'CS'
+    serviceIds:
+      - 343
+    networkId: 7
+    miyoutvId: 'ナショジオ'
+    boardIds:
+      - 'SKYPER_NATIONAL'
+  - name: '日テレNEWS24'
+    type: 'CS'
+    serviceIds:
+      - 349
+    networkId: 6
+    miyoutvId: '日テレNEWS24'
+    boardIds:
+      - 'SKYPER_NEWS24'
+      - 'NANJ_NEWS24'
+    syobocalId: 263
+  - name: 'TBS NEWS'
+    type: 'CS'
+    serviceIds:
+      - 351
+    networkId: 7
+    miyoutvId: 'TBSニュースバード'
+    boardIds:
+      - 'SKYPER_TBSNEWS'
+  - name: 'BBCワールド'
+    type: 'CS'
+    serviceIds:
+      - 353
+    networkId: 7
+    miyoutvId: 'BBCワールド'
+  - name: 'CNNj'
+    type: 'CS'
+    serviceIds:
+      - 354
+    networkId: 7
+    miyoutvId: 'CNNj'
+  - name: '旅チャンネル'
+    type: 'CS'
+    serviceIds:
+      - 362  # 停波済み
+    networkId: 6
+    syobocalId: 176
+    annictId: 177
+  - name: '囲碁・将棋チャンネル'
+    type: 'CS'
+    serviceIds:
+      - 363
+    networkId: 7
+    miyoutvId: '囲碁・将棋チャンネル'
+  - name: 'スポーツライブ+'
+    type: 'CS'
+    serviceIds:
+      - 800
+    networkId: 6
+    miyoutvId: 'スカサカ'
+    boardIds:
+      - 'NANJ_SLPLUS'
+    annictId: 150
+  - name: 'スカチャン1'
+    type: 'CS'
+    serviceIds:
+      - 801
+    networkId: 6
+    miyoutvId: 'スカチャン'
+    annictId: 175
+
+# 5ch 板と実況チャンネルの関連付け
+# boards[].id と channels[].boardIds が対応
+# https://headline.5ch.net/bbylive/ などを参考に
+boards:
+  # https://nhk2.5ch.net/livenhk
+  - id: 'NHK'
+    name: '番組ch(NHK)'
+    server: 'nhk2'
+    board: 'livenhk'
+  # https://nhk2.5ch.net/liveetv
+  - id: 'ETV'
+    name: '番組ch(教育)'
+    server: 'nhk2'
+    board: 'liveetv'
+  # https://sora.5ch.net/liventv
+  - id: 'NTV'
+    name: '番組ch(NTV)'
+    server: 'sora'
+    board: 'liventv'
+  # https://sora.5ch.net/livetbs
+  - id: 'TBS'
+    name: '番組ch(TBS)'
+    server: 'sora'
+    board: 'livetbs'
+  # https://sora.5ch.net/livecx
+  - id: 'CX'
+    name: '番組ch(フジ)'
+    server: 'sora'
+    board: 'livecx'
+  # https://sora.5ch.net/liveanb
+  - id: 'ANB'
+    name: '番組ch(朝日)'
+    server: 'sora'
+    board: 'liveanb'
+  # https://sora.5ch.net/livetx
+  - id: 'TX'
+    name: '番組ch(TX)'
+    server: 'sora'
+    board: 'livetx'
+  # https://fate.5ch.net/livemx
+  - id: 'MX'
+    name: '番組ch(MX)'
+    server: 'fate'
+    board: 'livemx'
+
+  # https://nhk2.5ch.net/livebs
+  - id: 'BSNHK_BS1'
+    name: 'BS実況(NHK)'
+    server: 'nhk2'
+    board: 'livebs'
+    keywords:
+      - 'BS1'
+  - id: 'BSNHK_BSP'
+    name: 'BS実況(NHK)'
+    server: 'nhk2'
+    board: 'livebs'
+    keywords:
+      - 'BSプレミアム'
+
+  # https://tanuki.5ch.net/livebs2
+  - id: 'BSFREE_NTV'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BS日テレ'
+  - id: 'BSFREE_ANB'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BS朝日'
+  - id: 'BSFREE_TBS'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BS-TBS'
+  - id: 'BSFREE_TX'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BSテレ東'
+      - 'BSジャパン'
+  - id: 'BSFREE_CX'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BSフジ'
+  - id: 'BSFREE_BS11'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BS11'
+  - id: 'BSFREE_BS12'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BS12'
+      - 'TwellV'
+  - id: 'BSFREE_OUJ'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - '放送大学'
+  - id: 'BSFREE_DLIFE'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'Dlife'
+  - id: 'BSFREE_SYOCHIKUTOKYU'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BS松竹東急'
+  - id: 'BSFREE_JAPANEXT'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BSJapanext'
+  - id: 'BSFREE_YOSHIMOTO'
+    name: 'BS実況(無料)'
+    server: 'tanuki'
+    board: 'livebs2'
+    keywords:
+      - 'BSよしもと'
+
+  # https://sora.5ch.net/livewowow
+  - id: 'BSPAY_WOWOWP'
+    name: 'BS実況(有料)'
+    server: 'sora'
+    board: 'livewowow'
+    keywords:
+      - 'WOWOWプライム'
+  - id: 'BSPAY_WOWOWC'
+    name: 'BS実況(有料)'
+    server: 'sora'
+    board: 'livewowow'
+    keywords:
+      - 'WOWOWシネマ'
+  - id: 'BSPAY_WOWOWL'
+    name: 'BS実況(有料)'
+    server: 'sora'
+    board: 'livewowow'
+    keywords:
+      - 'WOWOWライブ'
+  - id: 'BSPAY_STAR'
+    name: 'BS実況(有料)'
+    server: 'sora'
+    board: 'livewowow'
+    keywords:
+      - 'スターチャンネル'
+      - 'スタチャン'
+  - id: 'BSPAY_SKYPER'
+    name: 'BS実況(有料)'
+    server: 'sora'
+    board: 'livewowow'
+    keywords:
+      - 'BSスカパー'
+
+  # https://sora.5ch.net/liveskyp
+  - id: 'SKYPER'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+  - id: 'SKYPER_GREEN'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'グリーンチャンネル'
+  - id: 'SKYPER_ANIMAX'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'アニマックス'
+  - id: 'SKYPER_WOWOWPLUS'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'WOWOWプラス'
+  - id: 'SKYPER_225'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - '日本映画専門'
+  - id: 'SKYPER_218'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - '東映チャンネル'
+  - id: 'SKYPER_NECO'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'NECO'
+      - 'NEKO'
+  - id: 'SKYPER_GTASU'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'G+'
+  - id: 'SKYPER_KIDS'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'キッズステーション'
+      - 'ｷｯｽﾞｽﾃｰｼｮﾝ'
+  - id: 'SKYPER_CARTOON'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'カートゥーン'
+  - id: 'SKYPER_ATX'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'AT-X'
+  - id: 'SKYPER_TBS'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'TBSチャンネル'
+  - id: 'SKYPER_ANB'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'テレ朝チャンネル'
+  - id: 'SKYPER_NTVPLUS'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - '日テレプラス'
+  - id: 'SKYPER_GINGA'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'チャンネル銀河'
+  - id: 'SKYPER_CXONE'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'ONE'
+      - 'ゲームセンターCX'
+      - '競馬予想TV'
+  - id: 'SKYPER_CXTWO'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'TWO'
+  - id: 'SKYPER_CXNEXT'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'NEXT'
+  - id: 'SKYPER_SKYSTAGE'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'タカラヅカスカイステージ'
+  - id: 'SKYPER_292'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - '時代劇専門'
+  - id: 'SKYPER_FAMILY'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'ファミリー劇場'
+  - id: 'SKYPER_MONDO'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'MONDOTV'
+  - id: 'SKYPER_DISCOVERY'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'ﾃﾞｨｽｶﾊﾞ'
+      - 'ディスカバ'
+  - id: 'SKYPER_ANIMAL'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'ｱﾆﾌﾟﾗ'
+      - 'アニプラ'
+  - id: 'SKYPER_HISTORY'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'ﾋｽﾄﾘ'
+      - 'ヒストリ'
+  - id: 'SKYPER_NATIONAL'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'ﾅｼｮｼﾞｵ'
+      - 'ナショジオ'
+  - id: 'SKYPER_NEWS24'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'NEWS24'
+  - id: 'SKYPER_TBSNEWS'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'TBS NEWS'
+  - id: 'SKYPER_DRAMA'
+    name: 'スカパー実況'
+    server: 'sora'
+    board: 'liveskyp'
+    keywords:
+      - 'FOX・スパドラ・AXN・AXNミステリー'
+
+  # https://mao.5ch.net/liveanime
+  - id: 'ANIME_BS11'
+    name: 'アニメ特撮実況'
+    server: 'mao'
+    board: 'liveanime'
+    keywords:
+      - 'BS11'
+  - id: 'ANIME_MX'
+    name: 'アニメ特撮実況'
+    server: 'mao'
+    board: 'liveanime'
+    keywords:
+      - 'TOKYO MX'
+
+  # https://sora.5ch.net/weekly
+  - id: 'LOCAL_MX'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - 'MX'
+  - id: 'LOCAL_TVK'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - 'tvk'
+  - id: 'LOCAL_TVS'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - 'テレ玉'
+  - id: 'LOCAL_CTC'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - 'チバ'
+  - id: 'LOCAL_GTV'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - '群馬'
+  - id: 'LOCAL_GYT'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - 'とちぎ'
+  - id: 'LOCAL_TOKAI'
+    name: '番組ch'
+    server: 'sora'
+    board: 'weekly'
+    keywords:
+      - '東海'
+
+  # https://sora.5ch.net/livewkwest
+  - id: 'LOCAL_WEST'
+    name: '番組ch(西日本)'
+    server: 'sora'
+    board: 'livewkwest'
+    keywords:
+      - '関西ローカル'
+      - 'ｱﾆﾒ関西ﾛｰｶﾙ'
+
+  # https://mao.5ch.net/endless
+  - id: 'ENDLESS_JCOM'
+    name: '実況ch'
+    server: 'mao'
+    board: 'endless'
+    keywords:
+      - 'J:COM'
+  - id: 'ENDLESS_WNI'
+    name: '実況ch'
+    server: 'mao'
+    board: 'endless'
+    keywords:
+      - 'WNI'
+
+  # https://fate.5ch.net/liveuranus
+  - id: 'NANU_WNI'
+    name: 'なんでも実況U'
+    server: 'fate'
+    board: 'liveuranus'
+    keywords:
+      - 'WNI'
+
+  # https://fate.5ch.net/lovelive
+  - id: 'LOVELIVE_NHK'
+    name: 'ラブライブ！'
+    server: 'fate'
+    board: 'lovelive'
+    keywords:
+      - 'NHK'
+  - id: 'LOVELIVE_ETV'
+    name: 'ラブライブ！'
+    server: 'fate'
+    board: 'lovelive'
+    keywords:
+      - 'Eテレ'
+      - 'ETV'
+
+  # https://eagle.5ch.net/livejupiter
+  - id: 'NANJ_NHK'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'NHK'
+  - id: 'NANJ_ETV'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'Eテレ'
+      - 'ETV'
+  - id: 'NANJ_NTV'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - '日テレ'
+      - 'NTV'
+  - id: 'NANJ_TBS'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'TBS'
+  - id: 'NANJ_CX'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'フジ'
+      - 'CX'
+  - id: 'NANJ_ANB'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'テレ朝'
+      - '【EX】'
+      - 'ﾆﾁｱｻ'
+  - id: 'NANJ_TX'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'テレ東'
+      - 'TX'
+  - id: 'NANJ_MX'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'MX'
+  - id: 'NANJ_TVK'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'TVK'
+  - id: 'NANJ_SUN'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'SUN'
+      - 'サンテレビ'
+  - id: 'NANJ_MBS'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'MBS'
+  - id: 'NANJ_ABC'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'ABC'
+  - id: 'NANJ_CBC'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'CBC'
+  - id: 'NANJ_JCOM'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'JCOM'
+  - id: 'NANJ_NHKBS1'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BS1'
+      - 'NHKBS'
+  - id: 'NANJ_NHKBS2'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BS2'
+  - id: 'NANJ_NHKBSP'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BSプレミアム'
+      - 'BSP'
+      - 'BS3'
+      - 'bsシネマ'
+  - id: 'NANJ_BSNTV'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BS日テレ'
+      - 'BS4'
+  - id: 'NANJ_BSANB'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BS朝日'
+  - id: 'NANJ_BSTBS'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BSTBS'
+      - 'BS-TBS'
+  - id: 'NANJ_BSTX'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BSテレ東'
+      - 'BSジャパン'
+  - id: 'NANJ_BSCX'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BSフジ'
+  - id: 'NANJ_WOWOW'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'WOWOW'
+      - '【wowwow】'
+  - id: 'NANJ_BS11'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BS11'
+      - 'BS12'
+      - 'BS13'
+      - 'BS14'
+      - 'BS15'
+      - 'BS16'
+      - 'BS17'
+      - 'BS18'
+      - 'BS19'
+      - 'BS20'
+      - 'BS21'
+  - id: 'NANJ_BS12'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'BS12'
+      - 'TwellV'
+      - 'BS十二'
+  - id: 'NANJ_JSPORTS'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'JSPORTS'
+      - 'Jスポ'
+      - 'SPORTS'
+      - 'Jspo'
+  - id: 'NANJ_JSPORTS1'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'Jスポ1'
+      - 'SPORTS1'
+      - 'Jspo1'
+  - id: 'NANJ_JSPORTS2'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'Jスポ2'
+      - 'SPORTS2'
+      - 'Jspo2'
+  - id: 'NANJ_JSPORTS3'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'Jスポ3'
+      - 'SPORTS3'
+      - 'Jspo3'
+  - id: 'NANJ_JSPORTS4'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'Jスポ4'
+      - 'SPORTS4'
+      - 'Jspo4'
+  - id: 'NANJ_CXONE'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'ONE'
+  - id: 'NANJ_CXTWO'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'TWO'
+  - id: 'NANJ_CXNEXT'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'NEXT'
+  - id: 'NANJ_NEWS24'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'NEWS24'
+  - id: 'NANJ_SKYA'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'スカイA'
+  - id: 'NANJ_GTASU'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'G+'
+  - id: 'NANJ_TBSCH'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'TBSch'
+  - id: 'NANJ_SLPLUS'
+    name: 'なんでも実況(ガリレオ)'
+    server: 'nova'
+    board: 'livegalileo'
+    keywords:
+      - 'SL+'
