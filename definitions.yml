@@ -1,4 +1,3 @@
----
 $schema: 'https://raw.githubusercontent.com/SlashNephy/saya-definitions/master/schema.yml'
 channels:
   # https://cal.syoboi.jp/mng?Action=ShowChList
@@ -72,7 +71,7 @@ channels:
     boardIds:
       - 'NHK'
       - 'LOVELIVE_NHK'
-      - 'NANJ_NHK'
+      - 'NANG_NHK'
     syobocalId: 1
     annictId: 1
   - name: 'Eテレ'
@@ -135,7 +134,7 @@ channels:
     boardIds:
       - 'ETV'
       - 'LOVELIVE_ETV'
-      - 'NANJ_ETV'
+      - 'NANG_ETV'
     syobocalId: 2
     annictId: 2
   - name: '日テレ'
@@ -190,7 +189,7 @@ channels:
       - '#ntv'
     boardIds:
       - 'NTV'
-      - 'NANJ_NTV'
+      - 'NANG_NTV'
     syobocalId: 4
     annictId: 4
   - name: 'テレビ朝日'
@@ -240,7 +239,7 @@ channels:
       - '#tvasahi'
     boardIds:
       - 'ANB'
-      - 'NANJ_ANB'
+      - 'NANG_ANB'
     syobocalId: 6
     annictId: 6
   - name: 'TBS'
@@ -294,7 +293,7 @@ channels:
       - '#tbs'
     boardIds:
       - 'TBS'
-      - 'NANJ_TBS'
+      - 'NANG_TBS'
     syobocalId: 5
     annictId: 5
   - name: 'テレビ東京'
@@ -326,7 +325,7 @@ channels:
       - '#tvtokyo'
     boardIds:
       - 'TX'
-      - 'NANJ_TX'
+      - 'NANG_TX'
     syobocalId: 7
     annictId: 7
   - name: 'フジテレビ'
@@ -379,7 +378,7 @@ channels:
       - '#fujitv'
     boardIds:
       - 'CX'
-      - 'NANJ_CX'
+      - 'NANG_CX'
     syobocalId: 3
     annictId: 3
 
@@ -402,7 +401,7 @@ channels:
       - 'MX'
       - 'LOCAL_MX'
       - 'ANIME_MX'
-      - 'NANJ_MX'
+      - 'NANG_MX'
     syobocalId: 19
     annictId: 19
   - name: '放送大学'
@@ -446,7 +445,7 @@ channels:
       - '#tvk'
     boardIds:
       - 'LOCAL_TVK'
-      - 'NANJ_TVK'
+      - 'NANG_TVK'
     syobocalId: 8
     annictId: 8
   - name: 'チバテレビ'
@@ -520,7 +519,7 @@ channels:
     networkId: 15
     boardIds:
       - 'LOCAL_WEST'
-      - 'NANJ_SUN'
+      - 'NANG_SUN'
     syobocalId: 58
     annictId: 58
   - name: 'テレビ和歌山'
@@ -568,8 +567,8 @@ channels:
       - '#mbs'
     boardIds:
       - 'TBS'
-      - 'NANJ_TBS'
-      - 'NANJ_MBS'
+      - 'NANG_TBS'
+      - 'NANG_MBS'
     syobocalId: 5
     annictId: 5
 
@@ -591,8 +590,8 @@ channels:
     boardIds:
       - 'TBS'
       - 'LOCAL_TOKAI'
-      - 'NANJ_TBS'
-      - 'NANJ_CBC'
+      - 'NANG_TBS'
+      - 'NANG_CBC'
     syobocalId: 5
     annictId: 5
 
@@ -612,8 +611,8 @@ channels:
       - '#tvasahi'
     boardIds:
       - 'ANB'
-      - 'NANJ_ANB'
-      - 'NANJ_ABC'
+      - 'NANG_ANB'
+      - 'NANG_ABC'
     syobocalId: 6
     annictId: 6
 
@@ -626,7 +625,7 @@ channels:
     networkId: 15
     boardIds:
       - 'ENDLESS_JCOM'
-      - 'NANJ_JCOM'
+      - 'NANG_JCOM'
     syobocalId: 245
     annictId: 255
 
@@ -650,8 +649,8 @@ channels:
       - '#nhkbs1'
     boardIds:
       - 'BSNHK_BS1'
-      - 'NANJ_NHKBS1'
-      - 'NANJ_NHKBS2'
+      - 'NANG_NHKBS1'
+      - 'NANG_NHKBS2'
     syobocalId: 9
     annictId: 9
   - name: 'NHKBSプレミアム'
@@ -672,7 +671,7 @@ channels:
       - '#nhkbsp'
     boardIds:
       - 'BSNHK_BSP'
-      - 'NANJ_NHKBSP'
+      - 'NANG_NHKBSP'
     syobocalId: 179
     annictId: 180
   - name: 'BS日テレ'
@@ -694,7 +693,7 @@ channels:
       - '#bsntv'
     boardIds:
       - 'BSFREE_NTV'
-      - 'NANJ_BSNTV'
+      - 'NANG_BSNTV'
     syobocalId: 71
     annictId: 71
   - name: 'BS朝日'
@@ -716,7 +715,7 @@ channels:
       - '#bsasahi'
     boardIds:
       - 'BSFREE_ANB'
-      - 'NANJ_BSANB'
+      - 'NANG_BSANB'
     syobocalId: 18
     annictId: 18
   - name: 'BS-TBS'
@@ -737,7 +736,7 @@ channels:
       - '#bstbs'
     boardIds:
       - 'BSFREE_TBS'
-      - 'NANJ_BSTBS'
+      - 'NANG_BSTBS'
     syobocalId: 16
     annictId: 16
   - name: 'BSテレ東'
@@ -760,7 +759,7 @@ channels:
       - '#bstvtokyo'
     boardIds:
       - 'BSFREE_TX'
-      - 'NANJ_BSTX'
+      - 'NANG_BSTX'
     syobocalId: 15
     annictId: 15
   - name: 'BSフジ'
@@ -781,7 +780,7 @@ channels:
       - '#bsfuji'
     boardIds:
       - 'BSFREE_CX'
-      - 'NANJ_BSCX'
+      - 'NANG_BSCX'
     syobocalId: 17
     annictId: 17
   - name: 'WOWOWプライム'
@@ -799,7 +798,7 @@ channels:
       - '#WOWOW'
     boardIds:
       - 'BSPAY_WOWOWP'
-      - 'NANJ_WOWOW'
+      - 'NANG_WOWOW'
     syobocalId: 204
     annictId: 205
   - name: 'WOWOWライブ'
@@ -817,7 +816,7 @@ channels:
       - '#WOWOW'
     boardIds:
       - 'BSPAY_WOWOWL'
-      - 'NANJ_WOWOW'
+      - 'NANG_WOWOW'
     syobocalId: 97
     annictId: 97
   - name: 'WOWOWシネマ'
@@ -835,7 +834,7 @@ channels:
       - '#WOWOW'
     boardIds:
       - 'BSPAY_WOWOWC'
-      - 'NANJ_WOWOW'
+      - 'NANG_WOWOW'
     syobocalId: 76
     annictId: 76
   - name: 'スターチャンネル1'
@@ -894,7 +893,7 @@ channels:
     boardIds:
       - 'BSFREE_BS11'
       - 'ANIME_BS11'
-      - 'NANJ_BS11'
+      - 'NANG_BS11'
     syobocalId: 128
     annictId: 128
   - name: 'BS12トゥエルビ'
@@ -913,7 +912,7 @@ channels:
       - '#BS12'
     boardIds:
       - 'BSFREE_BS12'
-      - 'NANJ_BS12'
+      - 'NANG_BS12'
     syobocalId: 129
     annictId: 129
   - name: '放送大学ex'
@@ -999,8 +998,8 @@ channels:
     twitterKeywords:
       - '#jsports'
     boardIds:
-      - 'NANJ_JSPORTS'
-      - 'NANJ_JSPORTS1'
+      - 'NANG_JSPORTS'
+      - 'NANG_JSPORTS1'
     miyoutvId: 'J SPORTS'
     syobocalId: 258
   - name: 'J SPORTS 2'
@@ -1012,7 +1011,7 @@ channels:
     twitterKeywords:
       - '#jsports'
     boardIds:
-      - 'NANJ_JSPORTS2'
+      - 'NANG_JSPORTS2'
     miyoutvId: 'J SPORTS'
     syobocalId: 259
   - name: 'J SPORTS 3'
@@ -1024,7 +1023,7 @@ channels:
     twitterKeywords:
       - '#jsports'
     boardIds:
-      - 'NANJ_JSPORTS3'
+      - 'NANG_JSPORTS3'
     miyoutvId: 'J SPORTS'
     syobocalId: 260
   - name: 'J SPORTS 4'
@@ -1036,7 +1035,7 @@ channels:
     twitterKeywords:
       - '#jsports'
     boardIds:
-      - 'NANJ_JSPORTS4'
+      - 'NANG_JSPORTS4'
     miyoutvId: 'J SPORTS'
     syobocalId: 261
   - name: 'BS釣りビジョン'
@@ -1058,7 +1057,7 @@ channels:
       - '#WOWOW'
     boardIds:
       - 'SKYPER_WOWOWPLUS'
-      - 'NANJ_WOWOW'
+      - 'NANG_WOWOW'
     miyoutvId: 'イマジカBS・映画'
     syobocalId: 251
   - name: '日本映画専門ch'
@@ -1233,7 +1232,7 @@ channels:
     syobocalId: 84
     annictId: 84
     boardIds:
-      - 'NANJ_SKYA'
+      - 'NANG_SKYA'
   - name: 'GAORA'
     type: 'CS'
     serviceIds:
@@ -1249,7 +1248,7 @@ channels:
     miyoutvId: '日テレジータス'
     boardIds:
       - 'SKYPER_GTASU'
-      - 'NANJ_GTASU'
+      - 'NANG_GTASU'
     syobocalId: 266
   - name: 'ゴルフネットワーク'
     type: 'CS'
@@ -1313,7 +1312,7 @@ channels:
     miyoutvId: 'TBSチャンネル'
     boardIds:
       - 'SKYPER_TBS'
-      - 'NANJ_TBSCH'
+      - 'NANG_TBSCH'
     syobocalId: 52
     annictId: 52
   - name: 'TBSチャンネル2'
@@ -1324,7 +1323,7 @@ channels:
     miyoutvId: 'TBSチャンネル'
     boardIds:
       - 'SKYPER_TBS'
-      - 'NANJ_TBSCH'
+      - 'NANG_TBSCH'
     syobocalId: 215
     annictId: 215
   - name: 'テレ朝チャンネル1'
@@ -1378,7 +1377,7 @@ channels:
     miyoutvId: 'フジテレビONE'
     boardIds:
       - 'SKYPER_CXONE'
-      - 'NANJ_CXONE'
+      - 'NANG_CXONE'
     syobocalId: 109
     annictId: 109
   - name: 'フジテレビTWO'
@@ -1389,7 +1388,7 @@ channels:
     miyoutvId: 'フジテレビTWO'
     boardIds:
       - 'SKYPER_CXTWO'
-      - 'NANJ_CXTWO'
+      - 'NANG_CXTWO'
     syobocalId: 43
     annictId: 43
   - name: 'フジテレビNEXT'
@@ -1400,7 +1399,7 @@ channels:
     miyoutvId: 'フジテレビNEXT'
     boardIds:
       - 'SKYPER_CXNEXT'
-      - 'NANJ_CXNEXT'
+      - 'NANG_CXNEXT'
     syobocalId: 131
     annictId: 131
   - name: 'スーパー！ドラマTV'
@@ -1600,7 +1599,7 @@ channels:
     miyoutvId: '日テレNEWS24'
     boardIds:
       - 'SKYPER_NEWS24'
-      - 'NANJ_NEWS24'
+      - 'NANG_NEWS24'
     syobocalId: 263
   - name: 'TBS NEWS'
     type: 'CS'
@@ -1642,7 +1641,7 @@ channels:
     networkId: 6
     miyoutvId: 'スカサカ'
     boardIds:
-      - 'NANJ_SLPLUS'
+      - 'NANG_SLPLUS'
     annictId: 150
   - name: 'スカチャン1'
     type: 'CS'
@@ -2107,40 +2106,40 @@ boards:
       - 'ETV'
 
   # https://eagle.5ch.net/livejupiter
-  - id: 'NANJ_NHK'
+  - id: 'NANG_NHK'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'NHK'
-  - id: 'NANJ_ETV'
+  - id: 'NANG_ETV'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'Eテレ'
       - 'ETV'
-  - id: 'NANJ_NTV'
+  - id: 'NANG_NTV'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - '日テレ'
       - 'NTV'
-  - id: 'NANJ_TBS'
+  - id: 'NANG_TBS'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'TBS'
-  - id: 'NANJ_CX'
+  - id: 'NANG_CX'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'フジ'
       - 'CX'
-  - id: 'NANJ_ANB'
+  - id: 'NANG_ANB'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2148,70 +2147,70 @@ boards:
       - 'テレ朝'
       - '【EX】'
       - 'ﾆﾁｱｻ'
-  - id: 'NANJ_TX'
+  - id: 'NANG_TX'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'テレ東'
       - 'TX'
-  - id: 'NANJ_MX'
+  - id: 'NANG_MX'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'MX'
-  - id: 'NANJ_TVK'
+  - id: 'NANG_TVK'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'TVK'
-  - id: 'NANJ_SUN'
+  - id: 'NANG_SUN'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'SUN'
       - 'サンテレビ'
-  - id: 'NANJ_MBS'
+  - id: 'NANG_MBS'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'MBS'
-  - id: 'NANJ_ABC'
+  - id: 'NANG_ABC'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'ABC'
-  - id: 'NANJ_CBC'
+  - id: 'NANG_CBC'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'CBC'
-  - id: 'NANJ_JCOM'
+  - id: 'NANG_JCOM'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'JCOM'
-  - id: 'NANJ_NHKBS1'
+  - id: 'NANG_NHKBS1'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BS1'
       - 'NHKBS'
-  - id: 'NANJ_NHKBS2'
+  - id: 'NANG_NHKBS2'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BS2'
-  - id: 'NANJ_NHKBSP'
+  - id: 'NANG_NHKBSP'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2220,47 +2219,47 @@ boards:
       - 'BSP'
       - 'BS3'
       - 'bsシネマ'
-  - id: 'NANJ_BSNTV'
+  - id: 'NANG_BSNTV'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BS日テレ'
       - 'BS4'
-  - id: 'NANJ_BSANB'
+  - id: 'NANG_BSANB'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BS朝日'
-  - id: 'NANJ_BSTBS'
+  - id: 'NANG_BSTBS'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BSTBS'
       - 'BS-TBS'
-  - id: 'NANJ_BSTX'
+  - id: 'NANG_BSTX'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BSテレ東'
       - 'BSジャパン'
-  - id: 'NANJ_BSCX'
+  - id: 'NANG_BSCX'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'BSフジ'
-  - id: 'NANJ_WOWOW'
+  - id: 'NANG_WOWOW'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'WOWOW'
       - '【wowwow】'
-  - id: 'NANJ_BS11'
+  - id: 'NANG_BS11'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2276,7 +2275,7 @@ boards:
       - 'BS19'
       - 'BS20'
       - 'BS21'
-  - id: 'NANJ_BS12'
+  - id: 'NANG_BS12'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2284,7 +2283,7 @@ boards:
       - 'BS12'
       - 'TwellV'
       - 'BS十二'
-  - id: 'NANJ_JSPORTS'
+  - id: 'NANG_JSPORTS'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2293,7 +2292,7 @@ boards:
       - 'Jスポ'
       - 'SPORTS'
       - 'Jspo'
-  - id: 'NANJ_JSPORTS1'
+  - id: 'NANG_JSPORTS1'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2301,7 +2300,7 @@ boards:
       - 'Jスポ1'
       - 'SPORTS1'
       - 'Jspo1'
-  - id: 'NANJ_JSPORTS2'
+  - id: 'NANG_JSPORTS2'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2309,7 +2308,7 @@ boards:
       - 'Jスポ2'
       - 'SPORTS2'
       - 'Jspo2'
-  - id: 'NANJ_JSPORTS3'
+  - id: 'NANG_JSPORTS3'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2317,7 +2316,7 @@ boards:
       - 'Jスポ3'
       - 'SPORTS3'
       - 'Jspo3'
-  - id: 'NANJ_JSPORTS4'
+  - id: 'NANG_JSPORTS4'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
@@ -2325,49 +2324,49 @@ boards:
       - 'Jスポ4'
       - 'SPORTS4'
       - 'Jspo4'
-  - id: 'NANJ_CXONE'
+  - id: 'NANG_CXONE'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'ONE'
-  - id: 'NANJ_CXTWO'
+  - id: 'NANG_CXTWO'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'TWO'
-  - id: 'NANJ_CXNEXT'
+  - id: 'NANG_CXNEXT'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'NEXT'
-  - id: 'NANJ_NEWS24'
+  - id: 'NANG_NEWS24'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'NEWS24'
-  - id: 'NANJ_SKYA'
+  - id: 'NANG_SKYA'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'スカイA'
-  - id: 'NANJ_GTASU'
+  - id: 'NANG_GTASU'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'G+'
-  - id: 'NANJ_TBSCH'
+  - id: 'NANG_TBSCH'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
     keywords:
       - 'TBSch'
-  - id: 'NANJ_SLPLUS'
+  - id: 'NANG_SLPLUS'
     name: 'なんでも実況(ガリレオ)'
     server: 'nova'
     board: 'livegalileo'
